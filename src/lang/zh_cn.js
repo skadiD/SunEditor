@@ -57,7 +57,7 @@
             math: '数学',
             image: '图片',
             video: '视频',
-            audio: '音讯',
+            audio: '音频',
             fullScreen: '全屏',
             showBlocks: '显示块区域',
             codeView: '代码视图',
@@ -81,9 +81,9 @@
         },
         dialogBox: {
             linkBox: {
-                title: '插入超链接',
+                title: '插入链接',
                 url: '网址',
-                text: '字体',
+                text: '显示文本',
                 newWindowCheck: '在新标签页中打开',
                 downloadLinkCheck: '下载链接',
                 bookmark: '书签'
@@ -98,17 +98,17 @@
                 title: '插入图片',
                 file: '上传图片',
                 url: '图片网址',
-                altText: '替换文字'
+                altText: '出错时显示内容'
             },
             videoBox: {
                 title: '插入视频',
                 file: '上传图片',
-                url: '嵌入网址, Youtube,Vimeo'
+                url: '嵌入视频'
             },
             audioBox: {
                 title: '插入音频',
                 file: '上传图片',
-                url: '音频网址'
+                url: '地址'
             },
             browser: {
                 tags: '标签',
@@ -117,16 +117,16 @@
             caption: '标题',
             close: '取消',
             submitButton: '确定',
-            revertButton: '恢复',
-            proportion: '比例',
-            basic: '基本',
+            revertButton: '重置',
+            proportion: '固定比例',
+            basic: '基础',
             left: '左',
             right: '右',
             center: '居中',
             width: '宽度',
             height: '高度',
             size: '尺寸',
-            ratio: '比'
+            ratio: '比例'
         },
         controller: {
             edit: '编辑',
@@ -139,12 +139,13 @@
             insertColumnAfter: '在右侧插入',
             deleteColumn: '删除列',
             fixedColumnWidth: '固定列宽',
-            resize100: '放大 100%',
-            resize75: '放大 75%',
-            resize50: '放大 50%',
-            resize25: '放大 25%',
-            mirrorHorizontal: '翻转左右',
-            mirrorVertical: '翻转上下',
+            resize100: '100%',
+            resize75: '75%',
+            resize50: '50%',
+            resize25: '25%',
+            autoSize: '自适应大小',
+            mirrorHorizontal: '左右翻转',
+            mirrorVertical: '上下翻转',
             rotateLeft: '向左旋转',
             rotateRight: '向右旋转',
             maxSize: '最大尺寸',
