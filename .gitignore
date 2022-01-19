@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .DS_Store
-
+.sample/**
+.test/**
 # project files
 .vscode/**
 .idea/**

@@ -10,7 +10,7 @@ module.exports = merge(common, {
 	mode: 'development',
 	entry: './test/dev/suneditor_build_test',
 	output: {
-		filename: 'suneditor.[hash].js',
+		filename: 'editor.[hash].js',
 		path: path.resolve(__dirname, 'dist')
 	},
 
@@ -23,7 +23,7 @@ module.exports = merge(common, {
 
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: 'css/suneditor.[hash].css'
+			filename: 'css/editor.[hash].css'
 		}),
 		new webpack.NamedModulesPlugin(),
 		new HtmlWebpackPlugin({

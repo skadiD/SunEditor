@@ -8,7 +8,7 @@
 'use strict';
 
 import _icons from '../assets/defaultIcons';
-import _defaultLang from '../lang/en';
+import _defaultLang from '../lang/zh_cn';
 import util from './util';
 
 export default {

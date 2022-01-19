@@ -22,7 +22,7 @@ module.exports = merge(common, {
 		new CleanWebpackPlugin(['dist']),
 		new OptimizeCSSPlugin(),
 		new MiniCssExtractPlugin({
-			filename: 'css/suneditor.min.css'
+			filename: 'css/editor.min.css'
 		})
 	]
 });

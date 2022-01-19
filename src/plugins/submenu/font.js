@@ -49,9 +49,12 @@ export default {
                 'Courier New',
                 'Impact',
                 'Georgia',
-                'tahoma',
-                'Trebuchet MS',
-                'Verdana'
+
+                'Aldrich',
+                'MadokaMusical',
+                'MadokaRunes',
+                'Saitamaar',
+                'SYMBOL'
             ] : option.font;
 
         let list = '<div class="se-list-inner">' +
