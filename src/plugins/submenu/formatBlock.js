@@ -39,7 +39,8 @@ export default {
         const listDiv = core.util.createElement('DIV');
         listDiv.className = 'se-submenu se-list-layer se-list-format';
 
-        const defaultFormats = ['p', 'div', 'blockquote', 'pre', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+        //const defaultFormats = ['p', 'div', 'blockquote', 'pre', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+        const defaultFormats = ['p', 'div', 'pre', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
         const formatList = !option.formats || option.formats.length === 0 ? defaultFormats : option.formats;
 
         let list = '<div class="se-list-inner"><ul class="se-list-basic">';

@@ -50,11 +50,11 @@ export default {
                 'Impact',
                 'Georgia',
 
-                'Aldrich',
-                'MadokaMusical',
-                'MadokaRunes',
                 'Saitamaar',
-                'SYMBOL'
+                'Aldrich',
+                'SYMBOL',
+                'MadokaRunes',
+                'MadokaMusical',
             ] : option.font;
 
         let list = '<div class="se-list-inner">' +

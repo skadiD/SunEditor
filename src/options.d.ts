@@ -573,7 +573,6 @@ export interface SunEditorOptions {
   export type FormatTagName =
   'p'
   | 'div'
-  | 'blockquote'
   | 'pre'
   | 'h1'
   | 'h2'
