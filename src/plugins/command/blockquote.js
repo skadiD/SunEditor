@@ -24,6 +24,7 @@ export default {
     active: function (element) {
         if (!element){
             this.util.removeClass(this.context.blockquote.targetButton, 'active');
+            return false
         }
         if (/pre/i.test(element.nodeName)) {
             this.util.addClass(this.context.blockquote.targetButton, 'active');
