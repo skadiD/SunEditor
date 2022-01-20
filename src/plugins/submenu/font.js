@@ -50,8 +50,8 @@ export default {
                 'Impact',
                 'Georgia',
 
-                'Saitamaar',
                 'Aldrich',
+                'Saitamaar',
                 'SYMBOL',
                 'MadokaRunes',
                 'MadokaMusical',
