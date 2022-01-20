@@ -17,7 +17,7 @@ import lineHeight from "./submenu/lineHeight";
 import template from "./submenu/template";
 import paragraphStyle from "./submenu/paragraphStyle";
 import textStyle from "./submenu/textStyle";
-
+import details from "./submenu/details";
 // dialog
 import { DialogPlugin } from "./DialogPlugin";
 import link from "./dialog/link";
@@ -32,6 +32,7 @@ import imageGallery from "./fileBrowser/imageGallery";
 
 declare const _default: {
   blockquote: CommandPlugin;
+  details: SubmenuPlugin;
   align: SubmenuPlugin;
   font: SubmenuPlugin;
   fontSize: SubmenuPlugin;

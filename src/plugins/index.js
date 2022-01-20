@@ -18,6 +18,8 @@ import template from './submenu/template';
 import paragraphStyle from './submenu/paragraphStyle';
 import textStyle from './submenu/textStyle';
 
+import details from './submenu/details';
+
 // dialog
 import link from './dialog/link';
 import image from './dialog/image';
@@ -28,5 +30,5 @@ import math from './dialog/math';
 // file browser
 import imageGallery from './fileBrowser/imageGallery';
 
-export { blockquote, align, font, fontSize, fontColor, hiliteColor, horizontalRule, list, table, formatBlock, lineHeight, template, paragraphStyle, textStyle, link, image, video, audio, math, imageGallery };
-export default { blockquote, align, font, fontSize, fontColor, hiliteColor, horizontalRule, list, table, formatBlock, lineHeight, template, paragraphStyle, textStyle, link, image, video, audio, math, imageGallery };
+export { details, blockquote, align, font, fontSize, fontColor, hiliteColor, horizontalRule, list, table, formatBlock, lineHeight, template, paragraphStyle, textStyle, link, image, video, audio, math, imageGallery };
+export default { details, blockquote, align, font, fontSize, fontColor, hiliteColor, horizontalRule, list, table, formatBlock, lineHeight, template, paragraphStyle, textStyle, link, image, video, audio, math, imageGallery };

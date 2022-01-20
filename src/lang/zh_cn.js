@@ -70,6 +70,7 @@
             tag_h: '标题',
             tag_blockquote: '引用',
             tag_pre: '引用', // 没想到吧 我也是引用
+            tag_details: '折叠',
             template: '模板',
             lineHeight: '行高',
             paragraphStyle: '段落样式',
